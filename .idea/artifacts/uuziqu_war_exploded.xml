@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="uuziqu:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/uuziqu_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="uuziqu/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="uuziqu" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="org.springframework:spring-messaging:4.3.2.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.7.RELEASE" />
+          <element id="library" level="project" name="Hibernate 3.6.10-3.6.10" />
+          <element id="library" level="project" name="org.springframework:spring-orm:4.3.2.RELEASE" />
+          <element id="library" level="project" name="org.apache.commons:commons-dbcp2:2.0" />
+          <element id="library" level="project" name="com.google.code.gson:gson:2.7" />
+          <element id="library" level="project" name="org.apache.httpcomponents:httpclient:4.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
